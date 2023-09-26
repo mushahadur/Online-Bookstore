@@ -13,7 +13,7 @@
 
         <div class="wrapper">
             <div class="logo">
-               <a href="#"> <img src="{{ asset('/') }}backend/assets/img/icons/logo.png" alt="" height="25%" width="25%"></a>
+               <a href="{{ route('home') }}"> <img src="{{ asset('/') }}backend/assets/img/icons/logo.png" alt="" height="25%" width="25%"></a>
             </div>
             <div class="text-center mt-4 name">
                 
