@@ -17,7 +17,10 @@ It is php 8.1.2 version
 - git clone
 - composer install
 - php artisan key:generate
+- Setup .env file with Database
 - php artisan migrate:fresh --seed
+- npm install
+- npm run dev
 
 
 <hr>

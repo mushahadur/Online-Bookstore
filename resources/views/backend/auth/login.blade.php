@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="{{ asset('backend/assets/css/custom-auth.css') }}">
+    <link rel="stylesheet" href="{{ asset('backend/user/assets/css/custom-auth.css') }}">
 </head>
 <body>
     <div class="container">
 
         <div class="wrapper">
             <div class="logo">
-                <a href="{{ route('home') }}"> <img src="{{ asset('/') }}backend/assets/img/icons/logo.png" alt=""></a>
+                <a href="{{ route('home') }}"> <img src="{{ asset('/') }}backend/user/assets/img/icons/logo.png" alt=""></a>
             </div>
             <div class="text-center mt-4 name">
                 
